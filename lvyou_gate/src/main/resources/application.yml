@@ -1,0 +1,29 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: lvyou-gate
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/lvyou?useUnicode=true&amp;characterEncoding=UTF8
+    username: root
+    password: root
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+mybatis-plus:
+  global-config:
+   db-config:
+    id-type: auto
+    table-prefix: ly_
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:9000/eureka/
+      registry-fetch-interval-seconds: 5
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1

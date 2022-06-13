@@ -1,0 +1,23 @@
+server:
+  port: 9000
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+spring:
+  application:
+    name: eureka
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/lvyou?useUnicode=true&amp;characterEncoding=UTF8
+    username: root
+    password: root
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+      table-prefix: ly_

@@ -1,0 +1,21 @@
+server:
+  port: 1996
+spring:
+  application:
+    name: lvyou-seller
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/lvyou?useUnicode=true&amp;characterEncoding=UTF8
+    username: root
+    password: root
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+      table-prefix: ly_
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9000/eureka/
+  instance:
+    prefer-ip-address: true

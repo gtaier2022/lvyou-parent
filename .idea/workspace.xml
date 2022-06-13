@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b28bc2a-8300-47f6-ac97-226e1ab80705" name="Default Changelist" comment="提交第3回" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../develop/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\develop\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="298eeSPJsdYg9E7e18EIM4ad7By" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/web/java/lvyou_parent&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d4d4e54d3316b18b756e40c78d2bf8c8&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="main" />
+    </force-push-targets>
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ipinkhat.user.service" />
+      <recent name="com.ipinkhat.user.controller" />
+      <recent name="com.ipinkhat.app.producer" />
+      <recent name="com.ipinkhat.app.jwt" />
+      <recent name="com.ipinkhat.app.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\web\java\lvyou_parent\lvyou_common_model\src\main\java\com\ipinkhat\lvyou\domain" />
+      <recent name="D:\web\java\lvyou_parent\stream_producer\src\main\java\com\ipinkhat" />
+      <recent name="D:\web\java\lvyou_parent\stream_consumer_2\src\main\resources" />
+      <recent name="D:\web\java\lvyou_parent\stream_consumer_1\src\main\resources" />
+      <recent name="D:\web\java\lvyou_parent\stream_consumer_1\src\main\java\com\ipinkhat" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaServer">
+    <configuration name="AliPayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="aliPay" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ipinkhat.app.AliPayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ipinkhat.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lvyou_category" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ipinkhat.lvyou.category.CategoryApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ipinkhat.lvyou.category.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lvyou_comment" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ipinkhat.lvyou.comment.CommentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lvyou_eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ipimkhat.eureka.EurekaServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FavoriteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lvyou_favorite" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ipinkhat.lvyou.favorite.FavoriteApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ipinkhat.lvyou.favorite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lvyou_gate" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ipinkhat.gate.GatewayServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lvyou_order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ipinkhat.lvyou.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RouteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lvyou_route" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ipinkhat.route.RouteApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ipinkhat.route.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SellerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lvyou_seller" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ipinkhat.seller.SellerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lvyou_user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ipinkhat.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServer" />
+      <item itemvalue="Spring Boot.CommentApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.GatewayServer" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.SellerApplication" />
+      <item itemvalue="Spring Boot.RouteApplication" />
+      <item itemvalue="Spring Boot.AliPayApplication" />
+      <item itemvalue="Spring Boot.FavoriteApplication" />
+      <item itemvalue="Spring Boot.CategoryApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AliPayApplication" />
+        <item itemvalue="Spring Boot.RouteApplication" />
+        <item itemvalue="Spring Boot.FavoriteApplication" />
+        <item itemvalue="Spring Boot.CategoryApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b28bc2a-8300-47f6-ac97-226e1ab80705" name="Default Changelist" comment="" />
+      <created>1652499234869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652499234869</updated>
+      <workItem from="1652499238627" duration="14474000" />
+      <workItem from="1652515946284" duration="6311000" />
+      <workItem from="1652532913453" duration="73944000" />
+      <workItem from="1652782372939" duration="1612000" />
+      <workItem from="1652784856170" duration="40441000" />
+      <workItem from="1652950324621" duration="15102000" />
+      <workItem from="1652975127773" duration="2065000" />
+      <workItem from="1653392494579" duration="3114000" />
+      <workItem from="1653633496433" duration="394000" />
+      <workItem from="1655098822126" duration="2159000" />
+      <workItem from="1655120900113" duration="2220000" />
+      <workItem from="1655123231828" duration="1726000" />
+      <workItem from="1655125068182" duration="76000" />
+      <workItem from="1655125304832" duration="953000" />
+    </task>
+    <task id="LOCAL-00001" summary="提交第3回">
+      <created>1655122720806</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655122720806</updated>
+    </task>
+    <task id="LOCAL-00002" summary="提交第3回">
+      <created>1655122739215</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655122739215</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="提交项目" />
+    <MESSAGE value="提交第3回" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交第3回" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/lvyou_order/src/main/java/com/ipinkhat/lvyou/order/controller/OrderController.java</url>
+          <line>44</line>
+          <properties class="com.ipinkhat.lvyou.order.controller.OrderController" method="findAll">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

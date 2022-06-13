@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/aliPay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvyou_category/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvyou_comment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvyou_common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvyou_common_model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvyou_eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvyou_favorite/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvyou_gate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvyou_gate/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvyou_order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvyou_route/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvyou_seller/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvyou_user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvyou_user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

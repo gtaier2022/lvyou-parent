@@ -1,0 +1,46 @@
+app:
+  app-id: 2021000118669200
+  privateKey: MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDIlPzCtKhVOvUwY3IHiTiyUTBjeY9+fioNuccKp+yPjTqgGmCmqoZBSWYliiTEyQrZXZtAoCYcwAoqZuYu2p06+ExcdibL7lmL7Ug9TB7XZH2lZ70DJICr501JpQA38dbUeyZBte9TvmSiotWz7AhgWZZ6diD3IXjCe7iwNKE7azqBmA241EASUGUk4aEtVBKc0XPoIDvpOZmtgbRn28fp8skCShx7zF+pzIwtvEb1Gh34ITuw9aR2DAdKZSp+TcT+2Jdk6n6xQIzG75MJP7NjUvf6V3kF2SCaae2XRthlr1qijyobScdv3VeYn80xbjhK783pFUbgXjKHKe3HcEYJAgMBAAECggEAWzGBiXRhY/6eIxXTbiGxKUFIYrGNz9DEheEE4Y9fOhTXpprXfm7hAyW/zylzdhSBXjn0r/kf2spk1MpbtMmn2nuxHAiLswP2qmuDAHtvOjZx+ZWklZ0u8vkCZo0iAE1vgsNKrW1uFgDl+BtYVajmVgflJmA2tKT/Jkzhtxr2gvB7EMS5EkFjwaSkHzvT9yQwL0OhKuQQygUdk3uVB/95T+JEHqyTes6LfIHtjWgOELEJHVKOB+16PYngEp4uWurDghu+JvgMXZiWL86TwqVNyJCfWFhKA+FbctDxJiebouCyrjILMKgZWnQtemY3E3Md6VyDoY67I8Y7T1bEci+10QKBgQDwBo/Ib81tqoO8JY/ACDZ8VDqqkG7x7rXuBg2OmUF9QBmmIZMFIuqEzLbko4XUGTqHta3KfYd4IlOSrR9ZkbB5wuXyzM9mYsKDLa/pNbBxSz9YRj8Pi/bIexfJll1z5ihLwW1zds0ycd6wIxugo9qXtwtiJo+Uckz94kDRhShVpwKBgQDV7md8YmcZ3OJvBXAGt41auu4BnTTZRWsIZ9STwDLV7Jezjg530hyaVJnYwlrHds7EFb4GMewk4Lo6kG84U0JWf8KqEdCgl5Uz5qvJKJveAE7xLe37mm9kbJvkgET3HvQOlGJG9fobhGQbL2A2pIPXUf1lsYZPQnGUIvxBMf1czwKBgB88q1+pdTGtfEFzHfce2oBpsczaySWBLHoSnZcOSOCVBAGD4w9LEPxBbBfrVBJbSiu5MCnnFkdDKF8xWqAcfrwJ6kUj9GXdunS58GfITfMgmNjTI4fRbkd/BYR9piHcNShOvwDE2EWVXibMGt9YE62k671VSWBHU8/Cry7VRn+HAoGAUDQTBCT4NlADbFADkeEa05slQ+GmQJav6/TRU5tI877BmQV3EyDorEtvaj5jPkiieA0WssfgmmrOJsqjh+BfDILVfmEzcCGkRFMEsGPTG8XN0sm/YQajIGk/gMk+Ec++/ABRX/00CUD3LuHyFkpTS1Rnxcpqaiik4D7Fh8OwEy0CgYBB5j05vGL32c///7YR/D5tMOqcS6B7a72YhDb4NSR7UW0Eg5eTbSpqHVB73gN7NLENaM+2hsD3DOZAenibYYu7ho0o7hXmc8AxKpGG3p8zYf7vA8b/Kp0T2EoHMPnpAVlWWoknfmEHw/MygVE5B01DbXMmFfb0uoZ143rjGTPirg==
+  notifyUrl: http://localhost/lvyou-alipay/app/success
+  returnUrl: http://localhost/lvyou-alipay/app/success
+  signType: RSA2
+  charset: utf-8
+  gatewayUrl: https://openapi.alipaydev.com/gateway.do
+jwt:
+  config:
+    ttl: 3600000000
+    key: ipinkhat
+
+server:
+  port: 1995
+spring:
+  application:
+    name: lvyou-alipay
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/lvyou?useUnicode=true&amp;characterEncoding=UTF8
+    username: root
+    password: root
+  rabbitmq:
+    addresses: localhost
+    username: ipinkhat
+    password: ipinkhat
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: comment-order
+      binders:
+        defaultRabbit:
+          type: rabbit
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+      table-prefix: ly_
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9000/eureka/
+  instance:
+    prefer-ip-address: true

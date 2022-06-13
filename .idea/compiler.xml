@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lvyou_comment" />
+        <module name="lvyou_common" />
+        <module name="aliPay" />
+        <module name="lvyou_category" />
+        <module name="lvyou_favorite" />
+        <module name="lvyou_gate" />
+        <module name="lvyou_common_model" />
+        <module name="lvyou_order" />
+        <module name="stream_consumer_2" />
+        <module name="lvyou_eureka" />
+        <module name="lvyou_user" />
+        <module name="lvyou_seller" />
+        <module name="lvyou_route" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lvyou_pojo" target="1.5" />
+      <module name="stream_consumer_1" target="1.8" />
+      <module name="stream_consumer_2" target="1.8" />
+      <module name="stream_producer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aliPay" options="-parameters" />
+      <module name="lvyou_category" options="-parameters" />
+      <module name="lvyou_comment" options="-parameters" />
+      <module name="lvyou_common" options="-parameters" />
+      <module name="lvyou_common_model" options="-parameters" />
+      <module name="lvyou_eureka" options="-parameters" />
+      <module name="lvyou_favorite" options="-parameters" />
+      <module name="lvyou_gate" options="-parameters" />
+      <module name="lvyou_order" options="-parameters" />
+      <module name="lvyou_route" options="-parameters" />
+      <module name="lvyou_seller" options="-parameters" />
+      <module name="lvyou_user" options="-parameters" />
+      <module name="stream_consumer_1" options="-parameters" />
+      <module name="stream_consumer_2" options="-parameters" />
+      <module name="stream_producer" options="-parameters" />
+    </option>
+  </component>
+</project>

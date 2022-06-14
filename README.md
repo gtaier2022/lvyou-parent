@@ -14,7 +14,7 @@
     模块简介
 </h6>
 
-![Image text](https://raw.githubusercontent.com/gtaier2022/lvyou-parent/main/model1.png)
+![Image text](.\model1.png)
 
 <h6>
     aliPay:支付模块采用了支付宝支付
@@ -44,5 +44,5 @@
 
 <h5>项目结构图
 
-![model2)](./model2.png)
+![model2)](.\model2.png)
 

@@ -6,6 +6,7 @@
 - Mysql： 5.7
 - Maven： 3.5.2
 - Redis： 2.4.5
+- 消息队列RabbitMQ
 
 <h5>主要技术栈
 <h6>springBoot+SpringCloud+SpringMVC+MyBatis-Plus+RabbitMQ
